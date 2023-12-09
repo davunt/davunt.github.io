@@ -1,6 +1,6 @@
 baseurl = "https://davunt.com"
 metaDataFormat = "yaml"
-title = "Blist Multilingual Theme"
+title = "David Hunt"
 theme = "blist"
 canonifyURLs = true
 
@@ -12,9 +12,18 @@ DefaultContentLanguage = "en"
     languageName = "English"
     [languages.en.params]
       introTitle = "David Hunt"
-      introSubtitle = "Enjoys building software with JavaScript and Python, as well as architecting robust systems in the cloud with AWS."
-      introPhoto = "/picture.jpg"
+      introSubtitle = "Software Engineer that enjoys building software with JavaScript and Python, as well as architecting robust systems in the cloud with AWS."
+      introPhoto = "/picture.jpeg"
       logo = "/blist-logo.png"
+    [[languages.en.menu.main]]
+        name = "Projects"
+        url = "#projects"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Articles"
+        url = "#articles"
+        weight = 2
 
 [params]
   # Enable the darkmode toggle in header
@@ -38,7 +47,7 @@ DefaultContentLanguage = "en"
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  copyright = "Copyright © 2023 - David Hunt · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -91,67 +100,19 @@ DefaultContentLanguage = "en"
 
 [params.homepage.social]
   # Global params common for both languages
-  title = "Follow me"
+  title = "Contact me"
   description = "I work on everything coding and tweet developer memes"
 
-  [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
   [[params.homepage.social.icons]]
     website = "linkedin"
     url = "https://linkedin.com/in/"
   [[params.homepage.social.icons]]
-    website = "xing"
+    website = "e-mail"
     url = "https://www.xing.com/profile/"
-  [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
-  [[params.homepage.social.icons]]
-    website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
-  [[params.homepage.social.icons]]
-    website = "tiktok"
-    url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
-  [[params.homepage.social.icons]]
-    website = "youtube"
-    url = "https://youtube.com"
-  [[params.homepage.social.icons]]
-    website = "instagram"
-    url = "https://instagram.com"
-  [[params.homepage.social.icons]]
-    website = "facebook"
-    url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
+# [[menu.main]]
+#   name = "Projects"
+#   url = "#projects"
 
 [build]
   writeStats = true

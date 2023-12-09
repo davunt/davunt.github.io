@@ -1,7 +1,9 @@
 ---
 title: "HydRemind"
 date: 1
-description: "App Eraser helps remove unwanted macOS applications and any related files that they leave behind."
+description: "A simple mobile application to help keep you hydrated throughout the day"
 thumbnail: /projects/hydremind.jpg
+status: "active"
 link: https://github.com/davunt/app-eraser
+github_url: https://github.com/davunt/app-eraser
 ---
