@@ -1,7 +1,7 @@
 ---
 title: "App Eraser"
 date: 1
-description: "App Eraser helps remove unwanted macOS applications and any related files that they leave behind."
+description: "Helps remove unwanted macOS applications and any related files that they leave behind."
 thumbnail: /projects/app-eraser.jpg
 status: "active"
 website_url: https://apperaser.com

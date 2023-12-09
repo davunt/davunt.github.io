@@ -12,7 +12,7 @@ DefaultContentLanguage = "en"
     languageName = "English"
     [languages.en.params]
       introTitle = "David Hunt"
-      introSubtitle = "Software Engineer that enjoys building software with JavaScript and Python, as well as architecting robust systems in the cloud with AWS."
+      introSubtitle = "Software Engineer that enjoys building software with JavaScript/TypeScript and Python, as well as architecting robust systems in the cloud with AWS."
       introPhoto = "/picture.jpeg"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
@@ -20,10 +20,10 @@ DefaultContentLanguage = "en"
         url = "#projects"
         weight = 1
 
-    [[languages.en.menu.main]]
-        name = "Articles"
-        url = "#articles"
-        weight = 2
+    # [[languages.en.menu.main]]
+    #     name = "Articles"
+    #     url = "#articles"
+    #     weight = 2
 
 [params]
   # Enable the darkmode toggle in header
@@ -75,44 +75,10 @@ DefaultContentLanguage = "en"
   # This setting can also be in page's markdown file
   hidePageThumbnail = false
 
-# Comments system
-[params.comments]
-  # Supports disqus, giscus and utterances
-  # Check hugo docs for setting up disqus
-  system = "giscus"
-
-  # Options for giscus, exclude hyphens
-  repo = ""
-  repoid = ""
-  category = ""
-  categoryid = ""
-  mapping = ""
-  strict = ""
-  reactionsenabled = ""
-  emitmetadata = ""
-  inputposition = ""
-  theme = ""
-
-  # Options for utterances, exclude hyphens
-  # repo = ""
-  # issueterm = ""
-  # theme = ""
-
 [params.homepage.social]
   # Global params common for both languages
-  title = "Contact me"
-  description = "I work on everything coding and tweet developer memes"
-
-  [[params.homepage.social.icons]]
-    website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "e-mail"
-    url = "https://www.xing.com/profile/"
-
-# [[menu.main]]
-#   name = "Projects"
-#   url = "#projects"
+  linkedin="https://www.linkedin.com/in/david-hunt12"
+  github="https://github.com/davunt"
 
 [build]
   writeStats = true
